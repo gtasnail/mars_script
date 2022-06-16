@@ -98,11 +98,11 @@ function Draw3DText(x, y, z, text)
     ClearDrawOrigin()
 end
 
-
+--epic useless functions 
 function DrawSphere2(pos, radius, r, g, b, a)
-	DrawMarker(1, pos.x, pos.y, pos.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, radius+0.0, radius, 500.0, r, g, b, a, false, false, 2, nil, nil, false)
+	DrawMarker(1, pos.x, pos.y, pos.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, radius, radius, 500.0, r, g, b, a, false, false, 2, nil, nil, false)
 end
 
 function DrawSphere3(pos, radius, r, g, b, a)
-	DrawMarker(1, pos.x, pos.y, pos.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, radius+0.0, radius, 1.0, r, g, b, a, false, false, 2, nil, nil, false)
+	DrawMarker(1, pos.x, pos.y, pos.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, radius, radius, 1.0, r, g, b, a, false, false, 2, nil, nil, false)
 end
